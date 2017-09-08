@@ -51,17 +51,17 @@ public interface ItemDaoInterface {
 	 * @param item Item to add to the database
 	 * @return Status of Success
 	 */
-	public boolean CreateItem(Item item);
+	public boolean createItem(Item item);
 	/**
 	 * Updates the item that is passed in with the updated values
 	 * @param item Item with updated values
 	 * @return Status of success
 	 */
-	public boolean UpdateItem(Item item);
+	public boolean updateItem(Item item);
 	/**
 	 * Deletes the item indicated by the passed in id
 	 * @param id ID of the item to delete
 	 * @return Status of success
 	 */
-	public boolean DeleteItem(int id);
+	public boolean deleteItem(int id);
 }
